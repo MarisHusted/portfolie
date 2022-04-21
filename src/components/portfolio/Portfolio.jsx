@@ -84,3 +84,12 @@ const Portfolio = () => {
 }
 
 export default Portfolio
+
+
+/*tilføj:
+design/web section 
+animation(både web og procreate) tegninger sektion*/
+
+/*lave og tilføje illustrationer i designet*/
+
+/*ret tekster og layout*/ 

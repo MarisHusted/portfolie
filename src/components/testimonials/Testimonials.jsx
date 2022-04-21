@@ -1,9 +1,8 @@
 import React from 'react'
 import './testimonials.css'
-import AVATAR1 from '../../assets/avatar1.jpg'
-import AVATAR2 from '../../assets/avatar2.jpg'
-import AVATAR3 from '../../assets/avatar3.jpg'
-import AVATAR4 from '../../assets/avatar4.jpg'
+import animation from '../../assets/woods.jpg'
+import portrait from '../../assets/hopsin.jpg'
+import photo from '../../assets/procreate-girl.jpg'
 import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -13,35 +12,30 @@ import 'swiper/css/pagination';
 
 const data = [
   {
-    avatar: AVATAR1,
-    name: 'Tina Snow',
-    rewiew: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat distinctio, sed dolorem debitis quasi assumenda odio veniam, laborum cum dolorum minima saepe laboriosam, odit sapiente labore soluta? Aperiam, error reiciendis?'
+    avatar: portrait,
+    name: 'Portaits in procreate',
+    rewiew: 'Stylized or cartoon portraits available on print A4, postcard and A2'
 
   },
   {
-    avatar: AVATAR2,
-    name: 'Shatta Wale',
-    rewiew: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat distinctio, sed dolorem debitis quasi assumenda odio veniam, laborum cum dolorum minima saepe laboriosam, odit sapiente labore soluta? Aperiam, error reiciendis?'
+    avatar: photo,
+    name: 'Commision from photo',
+    rewiew: 'realictic portait drawing of one or more people. Also available on print A4, postcard and A2'
   },
   {
-    avatar: AVATAR3,
-    name: 'Kwame Despite',
-    rewiew: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat distinctio, sed dolorem debitis quasi assumenda odio veniam, laborum cum dolorum minima saepe laboriosam, odit sapiente labore soluta? Aperiam, error reiciendis?'
+    avatar: animation,
+    name: 'small animation',
+    rewiew: 'small animation for your website '
   },
 
-  {
-    avatar: AVATAR4,
-    name: 'Nana Ama McBrown',
-    rewiew: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat distinctio, sed dolorem debitis quasi assumenda odio veniam, laborum cum dolorum minima saepe laboriosam, odit sapiente labore soluta? Aperiam, error reiciendis?'
-  },
 ]
 
 
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h5>Commision</h5>
+      <h2>Comomision pricing</h2>
 
       <Swiper className='container testimonials_container'
        modules={[Pagination]}

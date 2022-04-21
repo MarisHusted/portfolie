@@ -5,31 +5,28 @@ import {BiCheck} from 'react-icons/bi'
 const Services = () => {
     return (
         <section id='services'>
-            <h5>What i offer</h5>
+            <h5>I can help you with</h5>
             <h2>Services</h2>
 
             <div className='container services_container'>
                 <article className='service'>
                     <div className='service_head'>
-                        <h3>UI/UX Design</h3>
+                        <h3>Amimation or illustration Commision</h3>
                     </div>
                     <ul className='service_list'>
                         <li>
                             <BiCheck className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectur adipisicing elit.</p>
+                            <p>Portraits in procreate</p>
                         </li>
                         <li>
                             <BiCheck className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectur adipisicing elit.</p>
+                            <p>small animations in procreate</p>
                         </li>
                         <li>
                             <BiCheck className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectur adipisicing elit.</p>
+                            <p>Commision from photo</p>
                         </li>
-                        <li>
-                            <BiCheck className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectur adipisicing elit.</p>
-                        </li>
+                  
                 
 
 
@@ -44,24 +41,17 @@ const Services = () => {
                     <ul className='service_list'>
                         <li>
                             <BiCheck className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectur adipisicing elit.</p>
+                            <p>building website</p>
                         </li>
                         <li>
                             <BiCheck className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectur adipisicing elit.</p>
+                            <p>Wordpress website</p>
                         </li>
                         <li>
                             <BiCheck className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectur adipisicing elit.</p>
+                            <p>Designing website</p>
                         </li>
-                        <li>
-                            <BiCheck className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectur adipisicing elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectur adipisicing elit.</p>
-                        </li>
+                        
                     </ul>
                 </article>
 
@@ -72,24 +62,17 @@ const Services = () => {
                     <ul className='service_list'>
                         <li>
                             <BiCheck className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectur adipisicing elit.</p>
+                            <p>Design of your logo</p>
                         </li>
                         <li>
                             <BiCheck className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectur adipisicing elit.</p>
+                            <p>Bussines card deisign and print</p>
                         </li>
                         <li>
                             <BiCheck className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectur adipisicing elit.</p>
+                            <p>Choose between a couple logo of logo</p>
                         </li>
-                        <li>
-                            <BiCheck className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectur adipisicing elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectur adipisicing elit.</p>
-                        </li>
+                        
                     </ul>
                 </article>
             </div>
