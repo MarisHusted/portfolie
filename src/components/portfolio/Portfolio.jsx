@@ -87,9 +87,15 @@ export default Portfolio
 
 
 /*tilføj:
-design/web section 
+design/web section (tilføj one day viborg)
 animation(både web og procreate) tegninger sektion*/
 
 /*lave og tilføje illustrationer i designet*/
 
 /*ret tekster og layout*/ 
+
+
+/*projects
+portfolio
+Astar 
+*/
