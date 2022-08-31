@@ -1,9 +1,10 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/procreate-girl.jpg'
+import ME from '../../assets/me.jpg'
 import { FaAward } from 'react-icons/fa'
 import { HiCode } from 'react-icons/hi'
 import { VscFolderLibrary } from 'react-icons/vsc'
+
 
 const About = () => {
     return (
@@ -14,7 +15,7 @@ const About = () => {
             <div className='container about_container'>
                 <div className='about_me'>
                     <div className='about_me-image'>
-                    <img src={ME} alt="About Image" />
+                    <img src={ME} alt="About"/>
                     </div>
                 </div>
 
@@ -28,7 +29,7 @@ const About = () => {
                         <article className='about_card'>
                             <HiCode className='about_icon' />
                             <h5>software knowledge</h5>
-                            <small>html css ja react</small>
+                            <small>html css js & react</small>
                         </article>
                         <article className='about_card'>
                             <VscFolderLibrary className='about_icon' />

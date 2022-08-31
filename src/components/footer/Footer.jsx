@@ -4,10 +4,11 @@ import {FaFacebook} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import {FaGithub} from 'react-icons/fa'
 
+
 const Footer = () => {
     return (
         <footer>
-        <a href="#" className='footer_logo'>Logo</a>
+        <a href="#" className='footer_logo'>MH</a>
         <ul className='permalinks'>
             <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>

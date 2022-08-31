@@ -39,7 +39,52 @@ body {
    color: var(--color-white);
    line-height: 1.7;
    background-image: url(../src/assets/bg-texture.png);
+   
 }
+
+header {
+   background-image: url(../src/assets/Landingpage_Illustration.jpg);
+}
+
+#about {
+   background-image: url(../src/assets/aboutillustration.jpg);
+   height: 100vh;
+}
+
+#experience {
+   background-image: url(../src/assets/experienceillustration.jpg);
+   height: 100vh;
+}
+
+#services {
+   background-image: url(../src/assets/servicesillustration.jpg);
+   height: 100vh;
+}
+
+
+#gallery {
+  background-image: url(../src/assets/galleryillustration.jpg);
+  
+}
+
+#portfolio {
+   background-image: url(../src/assets/designillustration.jpg);
+ }
+
+
+#testimonials {
+   height: 80vh;
+   background-image: url(../src/assets/pricingillustration.jpg);
+}
+
+
+#contact {
+   height: 120vh;
+   background-image: url(../src/assets/contactillustration.JPG);
+}
+
+
+
 
 /* general */
 

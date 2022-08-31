@@ -1,55 +1,59 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/JayvB.jpg'
-import IMG2 from '../../assets/Bilhus.JPG'
-import IMG3 from '../../assets/Ecosteam.jpeg'
-import IMG4 from '../../assets/Fugetech.jpeg'
 import IMG5 from '../../assets/Homeyoga.JPG'
-import IMG6 from '../../assets/Jay-Vb.jpg'
-import IMG7 from '../../assets/TravelSpace.png'
+
+
+
 
 
 const data = [
     {
         id: 1,
-        image: IMG1,
-        title: 'Jay vB',
-        github: 'https://github.com'
-    },
-    {
-        id: 2,
-        image: IMG2,
-        title: 'VM BILHUS',
-        github: 'https://github.com'
-    },
-    {
-        id: 3,
-        image: IMG3,
-        title: 'ECO STEAM',
-        github: 'https://github.com'
-    },
-    {
-        id: 4,
-        image: IMG4,
-        title: 'Sima Fugetech',
+        image: IMG5,
+        title: 'Yoga',
         github: 'https://github.com'
     },
     {
         id: 5,
         image: IMG5,
-        title: 'Home Yoga',
+        title: 'Makeup side',
         github: 'https://github.com'
     },
     {
-        id1: 6,
-        image: IMG6,
-        title: 'Jay vB',
+        id: 5,
+        image: IMG5,
+        title: 'fremtidsside',
         github: 'https://github.com'
     },
     {
-        id: 7,
-        image: IMG7,
-        title: 'Travel Space',
+        id: 5,
+        image: IMG5,
+        title: 'jay vb',
+        github: 'https://github.com'
+    },
+    {
+        id: 5,
+        image: IMG5,
+        title: 'Andrea Side',
+        github: 'https://github.com'
+    },
+    {
+        id1: 5,
+        image: IMG5,
+        title: 'Rollespil',
+        github: 'https://github.com'
+    },
+    {
+        id: 5,
+        image: IMG5,
+        title: 'Astar',
+        github: 'https://github.com'
+    },
+    {
+        id: 5,
+        image: IMG5,
+        title: 'One Day Viborg',
         github: 'https://github.com'
     }
 ]
@@ -72,9 +76,10 @@ const Portfolio = () => {
                     </div>
                     <h3>{title}</h3>
                     <div className='portfolio_item-cta'>
-                        <a href={github} className='btn' target='_blank'>Github</a>
-                        <a href='#' className='btn btn-primary' target='_blank'>Logo</a>
+                        <a href={github} rel='noreferrer' className='btn' target='_blank'>Github</a>
+                        <a href='#' className='btn btn-primary' target='_blank'>PDF</a>
                     </div>
+
                 </article>
                 )
                     })
@@ -87,16 +92,9 @@ const Portfolio = () => {
 export default Portfolio
 
 
-/*tilføj:
-design/web section (tilføj one day viborg)
-animation(både web og procreate) tegninger sektion*/
-
-/*lave og tilføje illustrationer i designet*/
-
-/*ret tekster og layout*/ 
-
-
-/*projects
-portfolio
-Astar 
+/*work on projekts
+-rollespil 
+-make adjustment on the rest makeup, fremtids, Andrea & musikside
 */
+
+/*make thumbnails and pdf's when finished*/
